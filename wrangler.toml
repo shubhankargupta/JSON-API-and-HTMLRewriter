@@ -1,0 +1,12 @@
+name = "shubhproj"
+type = "javascript"
+account_id = "d21e38ba249ce0820f25fa6e69b2121c"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[dev]
+ip = "localhost"
+port = 8000
+local_protocol="http"
+upstream_protocol="https"
