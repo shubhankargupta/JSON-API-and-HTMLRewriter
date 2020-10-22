@@ -25,6 +25,8 @@ addEventListener("fetch", (event) => {
  * @param {Request} request
  */
 async function handleRequest(request) {
+  console.log(request.url);
+
   return new Response(json, {
     headers: { "content-type": "application/json;charset=UTF-8" },
   });
